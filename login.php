@@ -23,7 +23,7 @@
         <div class="column is-4">
             <?php
             if(isset($_SESSION['error'])){
-                echo "<div class='alert alert-danger'>
+                echo "<div>
                 ชื่อบัญชีหรือรหัสผ่านไม่ถูกต้อง</div>";
                 unset($_SESSION['error']);
             }
