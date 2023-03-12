@@ -30,7 +30,7 @@
                     if($_SESSION['add_login']=='error'){
                     echo "<div class='alert alert-danger'>ชื่อบัญชีซ้ำหรือฐานข้อมูลมีปัญหา</div>";
                 }else{
-                    echo "<div class='alert alert-success'>เพิ่มบัญชีเรียบร้อยแล้ว</div>";
+                    echo "<div class='alert alert-success'>เพิ่มบัญชีเป็นที่เรียบร้อยแล้ว</div>";
                 }
                 unset($_SESSION['add_login']);
             }
